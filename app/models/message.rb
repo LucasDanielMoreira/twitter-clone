@@ -29,4 +29,8 @@ class Message < ApplicationRecord
 
     File.delete(file_path) if File.exist?(file_path)
   end
+
+  def retweet
+    
+  end
 end
